@@ -1,25 +1,46 @@
 <!doctype html>
 <html>
-	<head>
-		<title>Lab - 06</title>
-	</head>
-	<body>
-		<h1>Topic -> Form</h1>
+
+<head>
+	<title>Lab - 06</title>
+</head>
+
+<body>
+	<h1>Topic -> Form</h1>
+	<hr>
+	<form>
+		<label for="name">Name : </label>
+		<input type="text" id="name" name="name" placeholder="Enter your name."><br><br>
+
+		<label>Contact No : </label>
+		<input type="number" name="contact_no" placeholder="Enter your contact no."><br><br>
+
+		<label>Email : </label>
+		<input type="email" name="email" placeholder="Enter your email"><br><br>
+
+		<label>Date of Birth : </label>
+		<input type="date" name="birth_date"><br><br>
 		<hr>
-		<form>
-			<label for="name">Name : </label>
-			<input type="text" id="name" name="name" placeholder="Enter your name."><br><br>
-			
-			<label>Contact No : </label>
-			<input type="number" name="contact_no" placeholder="Enter your contact no."><br><br>
-			
-			<label>Email : </label>
-			<input type="email" name="email" placeholder="Enter your email"><br><br>
-			
-			<label>Date of Birth : </label>
-			<input type="date" name="birth_date"><br><br>
-			
-			<input type="submit">
-		</form>
-	</body>
+		<label>Choose your course : </label><br><br>
+
+		<input type="checkbox">
+		<label>HTML</label>
+
+		<input type="checkbox">
+		<label>CSS</label>
+
+		<input type="checkbox">
+		<label>JS</label>
+		<hr>
+		<label>Select Gender</label><br><br>
+		<input type="radio">
+		<label>Male</label>
+
+		<input type="radio">
+		<label>Female</label>
+		<hr>
+		<input type="submit">
+	</form>
+</body>
+
 </html>
